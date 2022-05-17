@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Nanum+Gothic&family=Nunito+Sans:wght@200;400&family=Tapestry&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Filmomanija</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo"><a href="#">Filmomanija</a></div>
+    </div>
+
+    <div class="pre-main">
+            <div class="pre_zanr">
+                <label for="zanr">Izaberi žanr</label>
+                <select name="zanr" id="zanr">
+                    <option value="action">Akcija</option>
+                    <option value="comedy">Komedija</option>
+                    <option value="drama">Drama</option>
+                    <option value="sciFi">Naučna fantastika</option>
+                </select>
+            </div>
+            <div class="pre_film">
+                <label for="utisak">Ostavi svoj utisak</label>
+                <a href="poruka.html"><input type="button" name="poruka" id="poruka" value="Ostavite poruku"></a>
+            </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="item item1">
+                <div class="movie_name" id="movie_name1">The Batman</div>
+                <div class="movie" id="movie1">
+                    <a class="link" href="playMovie.html" onclick="zapamti1()">
+                        <img class="image" id="img1" src="img/akcija/The_Batman.jpeg">
+                        <div class="overlay">
+                            <div class="text" id="desc1">
+                                The Batman is a 2022 superhero film based on the DC Comics character Batman. Produced by Warner Bros. Pictures, DC Films, 6th & Idaho, and Dylan Clark Productions, and distributed by Warner Bros
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="item item2">
+                <div class="movie_name" id="movie_name2">The Northman</div>
+                <div class="movie" id="movie2">
+                    <a class="link" href="playMovie.html" onclick="zapamti2()">
+                        <img class="image" id="img2" src="img/akcija/The_Northman.jpg">
+                        <div class="overlay">
+                            <div class="text" id="desc2">
+                                The Northman is a 2022 epic historical action drama film directed by Robert Eggers, and co-written by Eggers and Sjón. Based on the legend of Amleth, the film stars Alexander Skarsgård (who also produced), Nicole Kidman, Claes Bang, Anya Taylor-Joy, Ethan Hawke, Björk, and Willem Dafoe
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="item item3">
+                <div class="movie_name" id="movie_name3">Moon Knight</div>
+                <div class="movie" id="movie3">
+                    <a class="link" href="playMovie.html" onclick="zapamti3()">
+                        <img class="image" id="img3" src="img/akcija/Moon_Knight.jpeg">
+                        <div class="overlay">
+                            <div class="text" id="desc3">
+                                Moon Knight is an American television miniseries created by Jeremy Slater for the streaming service Disney+, based on the Marvel Comics featuring the character of the same name. It is the sixth television series in the Marvel Cinematic Universe (MCU) to be produced by Marvel Studios, sharing continuity with the films of the franchise
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="item item4">
+                <div class="movie_name" id="movie_name4">Thor love and thunder</div>
+                <div class="movie" id="movie4">
+                    <a class="link" href="playMovie.html" onclick="zapamti4()">
+                        <img class="image" id="img4" src="img/akcija/Thor_Love_and_Thunder.jpeg">
+                        <div class="overlay">
+                            <div class="text" id="desc4">
+                                Thor: Love and Thunder is an upcoming American superhero film based on the Marvel Comics character Thor, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is intended to be the direct sequel to Thor: Ragnarok (2017) and the 29th film in the Marvel Cinematic Universe (MCU). The film is directed by Taika Waititi, who co-wrote the screenplay with Jennifer Kaytin Robinson, and stars Chris Hemsworth as Thor, alongside Tessa Thompson, Natalie Portman, Christian Bale, Chris Pratt, Jaimie Alexander, Pom Klementieff, Dave Bautista, Karen Gillan, Sean Gunn, Jeff Goldblum, Vin Diesel, and Bradley Cooper
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="item item5">
+                <div class="movie_name" id="movie_name5">Halo</div>
+                <div class="movie" id="movie5">
+                    <a class="link" href="playMovie.html" onclick="zapamti5()">
+                        <img class="image" id="img5" src="img/akcija/Halo.jpeg">
+                        <div class="overlay">
+                            <div class="text" id="desc5">
+                                Halo is an American military science fiction television series developed by Kyle Killen and Steven Kane for the streaming service Paramount+, loosely based on the video game franchise of the same name. Produced by Showtime Networks, 343 Industries, Amblin Television, One Big Picture, and Chapter Eleven, the series follows a 26th-century war between the United Nations Space Command and the Covenant, a theocratic-military alliance of several advanced alien races determined to eradicate the human race
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="item item6">
+                <div class="movie_name" id="movie_name6">Spider Man - No Way Home</div>
+                <div class="movie" id="movie6">
+                    <a class="link" href="playMovie.html" onclick="zapamti6()">
+                        <img class="image" id="img6" src="img/akcija/Spider-Man_No_Way_Home.jpg">
+                        <div class="overlay">
+                            <div class="text" id="desc6">
+                                Spider-Man: No Way Home is a 2021 American superhero film based on the Marvel Comics character Spider-Man, co-produced by Columbia Pictures and Marvel Studios and distributed by Sony Pictures Releasing. It is the sequel to Spider-Man: Homecoming (2017) and Spider-Man: Far From Home (2019), and the 27th film in the Marvel Cinematic Universe (MCU). The film was directed by Jon Watts and written by Chris McKenna and Erik Sommers.
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="item item7">
+                <div class="movie_name" id="movie_name7">Doctor Strange in the Multiverse of Madness</div>
+                <div class="movie" id="movie7">
+                    <a class="link" href="playMovie.html" onclick="zapamti7()">
+                        <img class="image" id="img7" src="img/akcija/Doctor_Strange_in_the_Multiverse_of_Madness.jpeg">
+                        <div class="overlay">
+                            <div class="text" id="desc7">
+                                Doctor Strange in the Multiverse of Madness is an upcoming American superhero film based on the Marvel Comics character Doctor Strange. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is intended to be the sequel to Doctor Strange (2016) and the 28th film of the Marvel Cinematic Universe (MCU). The film is directed by Sam Raimi, written by Michael Waldron, and stars Benedict Cumberbatch as Stephen Strange, alongside Elizabeth Olsen, Chiwetel Ejiofor, Benedict Wong, Xochitl Gomez, Michael Stuhlbarg, and Rachel McAdams. In the film, Strange and his allies travel into the multiverse to face a mysterious new adversary
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="item item8">
+                <div class="movie_name" id="movie_name8">Ambulance</div>
+                <div class="movie" id="movie8">
+                    <a class="link" href="playMovie.html" onclick="zapamti8()">
+                        <img class="image" id="img8" src="img/akcija/Ambulance.jpg">
+                        <div class="overlay">
+                            <div class="text" id="desc8">
+                                Ambulance is a 2022 American action thriller film directed and produced by Michael Bay. A co-production between New Republic Pictures, Project X Entertainment, and Bay Films, it is based on the 2005 Danish film of the same name by Laurits Munch-Petersen and Lars Andreas Pedersen. The film stars Jake Gyllenhaal, Yahya Abdul-Mateen II, and Eiza González and follows two adoptive siblings turned bank robbers who hijack an ambulance and take two first responders hostage 
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="item item9">
+                <div class="movie_name" id="movie_name9">No Time to Die</div>
+                <div class="movie" id="movie9">
+                    <a class="link" href="playMovie.html" onclick="zapamti9()">
+                        <img class="image" id="img9" src="img/akcija/No_Time_To_Die.jpeg">
+                        <div class="overlay">
+                            <div class="text" id="desc9">
+                                No Time to Die is a 2021 spy film and the twenty-fifth in the James Bond series produced by Eon Productions, starring Daniel Craig in his fifth and final portrayal of fictional British MI6 agent, James Bond. It was directed by Cary Joji Fukunaga from a screenplay by Neal Purvis, Robert Wade, Fukunaga and Phoebe Waller-Bridge. Léa Seydoux, Ben Whishaw, Naomie Harris, Jeffrey Wright, Christoph Waltz, Rory Kinnear and Ralph Fiennes reprise their roles from previous films, with Rami Malek, Lashana Lynch, Billy Magnussen, Ana de Armas, David Dencik and Dali Benssalah also starring. In No Time To Die, Bond has left active service with MI6 and is recruited by the CIA to find a kidnapped scientist, which leads to a showdown with a powerful adversary
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        Filmomanija <span id="year"></span>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

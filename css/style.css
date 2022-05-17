@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #141c24;
+    color: white;
+    height: 100%;
+   padding-bottom: 80px;
+}
+
+.header{
+    background-color: #c0392b;
+    padding: 30px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+.logo a:hover{
+    color: #141c24;
+}
+.pre-main{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#zanr{
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-left: 15px;
+}
+input[type=button]{
+    background-color: #c0392b;
+    color: white;
+    padding: 10px 20px !important;
+    border-radius: 20px;
+    border: 0px transparent;
+    margin-left: 90px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+input[type=button]:hover{
+    background-color: red;
+}
+
+.container{
+    padding: 10px 80px 80px 120px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    margin: 15px;
+    flex: 33.33333%
+}
+
+.movie{
+    position: relative;
+    width: 250px;
+    height: 350px;
+}
+
+#movie_name4{
+    padding-left: 45px;
+}
+#movie_name5{
+    padding-left: 100px;
+}
+#movie_name6{
+    padding-left: 20px;
+}
+#movie_name7{
+    padding-left: 10px;
+}
+.image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: scroll;
+    transition: 0.5s ease;
+    background-color: #ecf0f1;
+    opacity: 0.7;
+}
+.text{
+    position: absolute;
+    padding: 14px 16px;
+    color: black;
+    cursor: pointer;
+}
+.movie:hover .overlay{
+    height: 100%;
+}
+
+.movie_name{
+    padding: 10px 70px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    top: 100%;
+    width: 100%;
+    background-color: #c0392b;
+    font-size: 20px;
+    text-align: center;
+    height: 80px;
+    padding: 25px;
+}
+
+.row a{
+    color: white;
+    text-decoration: none;
+}
+
+/* poruka.html */
+
+.container_poruka{
+    display: flex;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.container_poruka_left{
+    flex: 40%;
+}
+#ime, #poruka{
+    border-radius: 10px;
+    border: 0px transparent;
+    padding: 5px;
+    margin: 0 8px;
+}
+.container_poruka_right{
+    flex: 60%;
+}
+
+#btnPoruka{
+    background-color: #c0392b;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 0px transparent;
+    margin-left: 90px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* playMovie.html */
+
+.naziv{
+    text-align: center;
+    padding: 20px 0;
+}
+.movieVideo{
+    text-align: center;
+    padding: 20px 0;
+}
+.opis{
+    padding: 40px 0;
+}
+#btnPoruka:hover{
+    background-color: red;
+}
+@media only screen and (max-width: 600px) {
+    .row{
+        flex-direction: column;
+    }
+    .pre-main{
+        flex-direction: column;
+    }
+    #zanr{
+        margin-bottom: 10px;
+        margin-right: 50px;
+    }
+    .pre_zanr{
+        flex: 100%;
+        margin-left: 50px;
+    }
+    .pre_film{
+        flex: 100%;
+    }
+    #movie4{
+        margin-left: 25px;
+    }
+    #movie_name4{
+        padding-left: 55px;
+    }
+    #movie6{
+        margin-left: 45px;
+    }
+    #movie_name6{
+        padding-left: 50px;
+    }
+    #movie7{
+        margin-left: 60px;
+    }
+    #movie_name7{
+        padding-left: 90px;
+    }
+    .container_poruka_left{
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px){
+    .row{
+        flex-direction: column;
+    }
+    .pre-main{
+        flex-direction: row;
+    }
+    #zanr{
+        margin-right: 50px;
+    }
+    #movie4{
+        margin-left: 25px;
+    }
+    #movie_name4{
+        padding-left: 60px;
+    }
+  /*  #movie5{
+        padding-left: 0;
+    }*/
+    #movie6{
+        margin-left: 50px;
+    }
+    #movie_name6{
+        padding-left: 60px;
+    }
+    #movie7{
+        margin-left: 100px;
+    }
+    #movie_name7{
+        padding-left: 40px;
+    }
+
+    .container_poruka_left{
+        margin-right: 20px;
+    }
+}
