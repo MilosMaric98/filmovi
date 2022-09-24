@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/register.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo"><a href="index.html">Filmomanija</a></div>
+      <div class="login_register">
+        <a href="login.html">Login</a> /
+        <a href="register.html">Register</a>
+      </div>
+      <div class="activeUser">
+        <p>Logout</p>
+      </div>
+    </div>
+    <form action="" name="loginForm">
+      <label for="fname">First Name </label>
+      <input
+        type="text"
+        name="fname"
+        id="fname"
+        placeholder="First Name"
+      /><br />
+      <label for="lname">Last Name </label>
+      <input type="text" name="lname" id="lname" placeholder="Last Name"/ ><br />
+      <label for="email">Email </label>
+      <input type="email" name="email" id="email" placeholder="Email" /><br />
+      <label for="password">Password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Password"
+      />
+      <input type="button" value="Register" id="btnRegister" />
+      <span id="message"></span>
+    </form>
+
+    <script src="js/register.js"></script>
+  </body>
+</html>
